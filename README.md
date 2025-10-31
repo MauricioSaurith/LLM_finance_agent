@@ -32,5 +32,9 @@ graph TD;
     B --> D[Coordinator Agent];
     C --> D[Coordinator Agent];
     D --> E[Final Report];
+```
+---
 
-contact: jose.saurith@est.uexternado.edu.co
+Contact: jose.saurith@est.uexternado.edu.co
+
+---

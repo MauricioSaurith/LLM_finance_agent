@@ -27,10 +27,10 @@ Both agents collaborate to generate a single, unified report summarizing:
 
 ```mermaid
 graph TD;
-    A[User Prompt] --> B[Finance Multi Agent];
+    A[User Prompt] --> B[Finance Agent];
     A --> C[Web Agent];
-    B --> D[Coordinator Agent];
-    C --> D[Coordinator Agent];
+    B --> D[Finance Multi Agent];
+    C --> D[Finance Multi Agent];
     D --> E[Final Report];
 ```
 ---
